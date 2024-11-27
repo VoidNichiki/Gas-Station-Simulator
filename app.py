@@ -46,7 +46,6 @@ def diff(combustivel: str):
     nume1 = ponto(input("Qntd. de combustível (manhã): "))
     nume2 = ponto(input("Qntd. de combustível (noite): "))
     litros = round(negative(nume1, nume2), 3)
-
     return litros
 
 def mostrar_info(infos: dict):
@@ -140,6 +139,9 @@ mostrar_info(salvar_info("Gasolina", 'gasolina'))
 mostrar_info(salvar_info("Gasolina2", 'gasolina'))
 mostrar_info(salvar_info("Gasolina3", 'gasolina'))
 mostrar_info(salvar_info("Gasolina Aditivada", 'gasolina aditivada'))
+mostrar_info(salvar_info("Óleo Comum & S-10", 'oleo'))
+mostrar_info(salvar_info("S-10", 'oleo'))
+mostrar_info(salvar_info("S-500", 'oleo'))
 
 diversos = ponto(input("Valores à parte: "))
 
